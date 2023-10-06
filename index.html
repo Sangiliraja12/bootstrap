@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Hotel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:black ;">
+<header>
+    <nav class="navbar navbar-expand-xl bg-body-dark rounded-pill" style="background-image:url('sl4.jpg');background-repeat:no-repeat;background-size:cover;>
+        <div class="container-fludi">
+            
+          <a class="navbar-brand rounded-pill ms-3" href="#"><img src="logo.png"style="border-radius: 500px;"></a></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end me-4" id="menu">
+            <ul class="navbar-nav me-1 ">
+              <li class="nav-item">
+                <a class="nav-link active"href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#offer">Top Offer</a>
+              </li>
+              <li class="nav-item"><a href="#room" 
+                class="nav-link">RoomS</a></li>
+                <li class="nav-item"><a href="#book"
+                class="nav-link">Booking</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#sev">Service</a></li>
+                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                </ul>
+              </li>
+            </ul>
+        
+          
+            </div>
+        </div>
+      </nav>
+      </header>
+      <main id="offer" class="mt-5">
+      <div class="container">
+        <div id="move" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#move" data-bs-slide-to="0" class="active"></button>
+                <button type="button" 
+                data-bs-target="#move" 
+                data-bs-slide-to="1"></button>
+                <button type="button" 
+                data-bs-target="#move" 
+                data-bs-slide-to="2"></button>
+                <button type="button" 
+                data-bs-target="#move" 
+                data-bs-slide-to="3"></button>
+                <button type="button" 
+                data-bs-target="#move" 
+                data-bs-slide-to="4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="sl1.jpg" alt="rooms" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h2>TOP OFFER</h2>
+                    <p>A Single Room Just $499 Per Night. </p></div>
+                </div>
+                <div class="carousel-item"><img 
+                src="sl2.jpg" alt="rooms" 
+                class="d-block w-100">
+                <div class="carousel-caption">
+                    <h2>TOP OFFER</h2>
+                    <p>A Royal Single Room Just $599 Per Night.
+                </p></div>
+                </div>
+                <div class="carousel-item"><img 
+                src="sl3.jpg" alt="rooms" 
+                class="d-block w-100">
+                <div class="carousel-caption  ">
+                    <h2>TOP OFFER</h2>
+                    <p>A Royal Double Bed Single Room Just $799 Per Night
+                </p></div>
+                </div>
+                <div class="carousel-item"><img 
+                src="sl4.jpg" alt="rooms" 
+                class="d-block w-100">
+                <div class="carousel-caption">
+                    <h2>TOP OFFER</h2>
+                    <p>A Luxicier Room Just $999 Per Night
+                </p></div>
+                </div>
+                <div class="carousel-item"><img 
+                src="sl5.jpg" alt="rooms" 
+               class="d-block w-100"><div class="carousel-caption ">
+                <h2>TOP OFFER</h2>
+                <p>A Ulter Delux Room Just $1099 Per Night
+            </p></div></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#move" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" 
+             type="button" data-bs-target="#move" 
+             data-bs-slide="next"><span 
+             class="carousel-control-next-icon"></span></
+             button>
+        </div>
+      </div>
+      </main>
+      <div class="container mt-3 bg-" id="room">
+        <div class="row">
+        <h1>Rooms</h1></div>
+        <div class="row mt-3">
+            <div class="col-4 justify-content-start">
+                <img src="sl5.jpg" alt="not found">
+            </div>
+            <div class="col-4 justify-content-center">
+                <img src="sl4.jpg" alt="not found"> 
+            </div><div class="col-4 justify-content-end">
+            <img src="sl3.jpg" alt="not found"></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-4 justify-content-start">
+                <img src="sl2.jpg" alt="not found">
+            </div>
+            <div class="col-4 justify-content-center">
+                <img src="sl1.jpg" alt="not found">
+            </div>
+            <div class="col-4 justify-content-start">
+                <img src="sl5.jpg" alt="not found">
+            </div>
+        </div>
+        <div id="book"class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <div class="card bg-secondary text-dark">
+                <div class="card-body">
+                    <h1 class="text-center">Book a Room</h1>
+                    <form>
+                     <div class="form-group">  
+                    <label for="room">SELECT ROOM</label>
+                    <select class="form-select" id="room"name="room" class="dropdown">
+                        <option>Single Room</option>
+                        <option>Double Room</option>
+                        <option>Guest Room</option>
+                        <option>VIP Room</option>
+                    </select>
+                     </div>
+                     <div class="row">
+                        <div class="col-6">
+                     <div class="form-group">
+                        <lable for="in">ARRIVAL</lable>
+                        <input type="date" class="form-control" id="in" name="in" placeholder="check-in Date">
+                     </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="out">DEPARTURE</label>
+                                <input type="date" class="form-control" id="out" name="out" aria-describedby="we">
+                                <small class="we">checkout date</small>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="form-control">
+                        <div class="row">
+                            <div class="col-4">
+                                
+                                <label for="adults">ADULTS</label>
+                                <select class="form-select" id="adults" name="adults">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                    
+                        
+                        <div class="col-4">
+                            <label for="child">CHILDREN</label>
+                            <select class="form-select" id="child" name="child" ><option value="no">No</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option></select>
+                        </div></div>
+                     </div>
+                     <div class="form-control">
+                    <div class="row">
+                            <div class="col">
+                     <button type="reset" class="btn btn-rounded bg-primary mt-2 btn-block text-center">book now</button></div></div></d
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4 mb-4" style="background-image: url('last.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;">
+    
+        <h4 id="sev" style="text-align: center;color:azure;font: size 150px;">SERVICE</h4>
+        <ul style="color:yellow;
+        font-size:large;"><li>24-Hour room service</li>
+            <li>Free wireless internet access</li>
+            <li>Complimentary use of hotel bicycle</li>
+            <li> Laundry service</li>
+            <li> Tour & excursions</li>
+            <li>24 Hour concierge</li>
+            <li>Meeting facilities</li>
+            <li>E-Bike & horse cart rental</li>
+            <li>Airport transfers</li>
+            <li>Babysitting on request</li>
+            <li>24-Hour doctor on call</li></ul>
+        
+    </div>
+      </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

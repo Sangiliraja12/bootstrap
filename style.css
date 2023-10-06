@@ -1,0 +1,23 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Poppins:wght@400;500&display=swap');
+
+*{
+    font-family: 'Fuggles', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    margin-top: 20px;
+}
+.carousel-caption{
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    font-size: bold;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    background-color:burlywood;
+    border-radius: 50px;
+}
